@@ -15,7 +15,7 @@ app.controller('experienciaCtrl', ['$scope', '$http','$timeout', function($scope
 		}, 0, false);
 	});
 
-	$scope.tabIndex = 1;
+	$scope.tabIndex = 3;
 	$scope.setTab = function(index){
 		$scope.tabIndex = index;
 	}
