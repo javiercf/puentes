@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="puentesApp" class="no-js">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="css/main.css" type="text/css" rel="stylesheet" />
+
+    <title>Puentes y Carreteras</title>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body onload="randBackground()" class="cercaniaPage">
+    <div class="wrap">
+        <div class="align">
+            <!--header-->
+            <header id="header">
+                <a href="index.html"><img src="img/logo.png" alt="Logotipo Puentes y Carreteras" height="70" style="margin:30px 30px 30px 30px" /></a>
+                <div id="contacto2">
+                    <p class="grey">Puentes y Carreteras S.A.S.</p>
+                    <p class="blue">Nit 860.402.284-0</p>
+                    <p class="grey">Dir.: Av. 7 No 114 - 33, Of 705 <br />Centro Empresarial Santa Bárbara</p>
+                    <p class="grey">Tel.: (57 1) 640 06 30 / 31 / 32 </p>
+                    <p class="blue">Bogot&aacute; - Colombia</p>
+                </div>
+
+                <div id="contacto">
+
+                </div>
+
+            </header>
+            <!--fin header-->
+
+
+            <div id="contenido" ng-controller="cercaniaCtrl">
+                <div id="cercania2">
+                    <div class="tagmenu1">
+                        <h1>Cercanía</h1>
+                    </div>
+                    <div class="menu1">
+                        <ul>
+                            <li ng-class="{active:checkTab(1)}">
+                                <a ng-click="setTab(1)">
+                                    <p>Un d&iacute;a normal en Puentes y Carreteras</p>
+                                </a>
+                            </li>
+                            <li ng-class="{active:checkTab(2)}">
+                                <a ng-click="setTab(2)">Testimonios</a>
+                            </li>
+                            <li ng-class="{active:checkTab(4)}">
+                                <a ng-click="setTab(4)">Galería</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div id="derecha" class="noFrame">
+
+                    <section ng-show="checkTab(1)">
+                        <iframe width="612" height="440" scrolling="yes" id="frame" name="frame" style="" frameborder="0" align="left" src="http://player.vimeo.com/video/51675217?autoplay=0&loop=1&title=0&byline=0&portrait=0" width="600" height="341" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="margin-left:6px; margin-top:15px;"></iframe>
+                    </section>
+                    <section ng-show="checkTab(2)" class="flexSection">
+                        <div class="cd-testimonials-wrapper cd-container">
+                            <ul class="cd-testimonials">
+                                <li ng-repeat="testimonio in testimonios|orderBy:random">
+                                    <p>{{testimonio.testimonio}}</p>
+                                    <div class="cd-author">
+                                        <ul class="cd-author-info">
+                                            <li>{{testimonio.nombre}}</li>
+                                            <li>{{testimonio.cargo}}</li>
+                                            <li>{{testimonio.ubicacion}}</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#0" class="cd-see-all">VER TODOS</a>
+                        <div class="cd-testimonials-all">
+                            <div class="cd-testimonials-all-wrapper">
+                                <ul>
+                                    <li ng-repeat="testimonio in testimonios|orderBy:random">
+                                        <p>{{testimonio.testimonio}}</p>
+                                        <div class="cd-author">
+                                            <ul class="cd-author-info">
+                                                <li>{{testimonio.nombre}}</li>
+                                                <li>{{testimonio.cargo}}</li>
+                                                <li>{{testimonio.ubicacion}}</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <a href="#0" class="close-btn">Close</a>
+                        </div>
+                    </section>
+                    <section ng-show="checkTab(4)">
+                        <div id="grid-gallery" class="grid-gallery">
+                            <section class="grid-wrap">
+                                <ul class="grid">
+                                    <li class="grid-sizer"></li><!-- for Masonry column width -->
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/acceso-cuerva-construccion-2.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/atardecer-leona.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/dorotea-aire.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/filtro-frances.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/oso-palmero.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/acceso-cuerva-construccion.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/box-coulvert.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/dorotea-naturaleza.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/gavion.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/plataforma-baquerena.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/acceso-cuerva.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/cal-dorotea.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/el-marrano.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/instalacion-dorotea.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/plataformas-gloria.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/acceso-leona.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/campamento-leona.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/el-rubi.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/locacion-leona.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/quiebrapatas.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/acceso-llanos.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/chiguiros.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/equipo-dorotea.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/locacion-llanos-2.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/senalizacion.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/acopio-llanos.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/construccion-leona.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/establizacion.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/locacion-llanos.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/skimer.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/adecuacion-leona.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/cuerva.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/extendido-dorotea.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/mantenimiento-llanos.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/terraplen.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/adecuacion-llanos.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/cunetas-llanos.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/extendido-llanos.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/medicion-llanos.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/tubo-llanos.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/afirmado.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/dorotea-aire-2.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/fauna.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/thumb/movilizacion-meta.jpg"/>
+                                        </figure>
+                                    </li>
+                                </ul>
+
+                            </section>
+                            <section class="slideshow">
+                                <ul>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/acceso-cuerva-construccion-2.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/atardecer-leona.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/dorotea-aire.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/filtro-frances.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/oso-palmero.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/acceso-cuerva-construccion.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/box-coulvert.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/dorotea-naturaleza.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/gavion.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/plataforma-baquerena.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/acceso-cuerva.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/cal-dorotea.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/el-marrano.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/instalacion-dorotea.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/plataformas-gloria.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/acceso-leona.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/campamento-leona.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/el-rubi.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/locacion-leona.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/quiebrapatas.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/acceso-llanos.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/chiguiros.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/equipo-dorotea.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/locacion-llanos-2.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/senalizacion.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/acopio-llanos.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/construccion-leona.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/establizacion.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/locacion-llanos.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/skimer.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/adecuacion-leona.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/cuerva.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/extendido-dorotea.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/mantenimiento-llanos.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/terraplen.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/adecuacion-llanos.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/cunetas-llanos.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/extendido-llanos.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/medicion-llanos.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/tubo-llanos.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/afirmado.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/dorotea-aire-2.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/fauna.jpg"/>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="img/large/movilizacion-meta.jpg"/>
+                                        </figure>
+                                    </li>
+                                </ul>
+                                <nav>
+                                    <span class="icon nav-prev"></span>
+                                    <span class="icon nav-next"></span>
+                                    <span class="icon nav-close"></span>
+                                </nav>
+                            </section>
+                        </div>
+                    </section>
+
+
+                </div>
+            </div>
+            <footer id="footer">
+                <div id="footer1">
+                    <p>Puentes y Carreteras &copy; PRIVACY POLICY</p>
+                </div>
+                <div id="footer2">
+                    <a href="experiencia.html" target="_self">Experiencia</a>
+                    <a href="profesionalismo.html" target="_self">Profesionalismo</a>
+                    <a href="cercania.html" target="_self">Cercan&iacute;a</a>
+                    <a href="contacto.php" target="_top" target="_self">Contacto</a>
+                </div>
+                <div id="footer3">
+                    <img src="img/Logo_BV2.png" style="height:80px;"  />
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpGridGallery.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript">
+        new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+    </script>
+</body>
+</html>

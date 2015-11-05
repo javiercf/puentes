@@ -1,0 +1,54 @@
+.contacto{
+	padding: 1em;
+}
+
+form{
+	input, textarea{
+		border: 1px solid #ccc;
+		padding: .5em;
+		width: 100%;
+	}
+
+	label{
+		margin-bottom: 1em;
+		font-weight: bold;
+		text-transform: uppercase;
+		display: block;
+	}
+
+	textarea{
+		height: 50px;
+	}
+
+	.form-control{
+		width: 50%;
+		float: left;
+		&+.form-control{
+			padding-left: 1em;
+		}
+	}
+
+	.form-row{
+		margin-bottom: 1em;
+
+		&:after{
+			content:'';
+			display: table;
+			height: 1px;
+			clear: both;
+		}
+	}
+	small{
+		font-size: 70%;
+	}
+
+	input[type="submit"]{
+		background:#0099cc;
+		color:#fff;
+		border: none;
+		width: 200px;
+		margin: 1em auto;
+		display: inline-block;
+		text-transform: uppercase;
+	}
+}

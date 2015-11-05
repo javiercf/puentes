@@ -1,0 +1,27 @@
+{
+  "name": "Puentes y Carreteras",
+  "authors": [
+    "javiercf <javiercferrans@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.7"
+  },
+  "dependencies": {
+    "reset-scss": "*",
+    "bourbon": "~4.2.6",
+    "jquery-zoom": "~1.7.14"
+  }
+}

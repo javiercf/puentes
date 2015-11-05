@@ -1,0 +1,658 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+PASAJERO GRATUITO
+copyright 2012
+Desarrollado para: Puentes y Carreteras S.A.S
+---------------------------------------------------
+COLORES:
+azul:			0099CC
+gris oscuro:	666666	
+*/
+
+/*---------------------------------------------------------------- CSS PRINCIPAL --------------------------------------------------*/
+html, body{
+	height: 100%;
+}
+
+body{
+	font-family:Calibri, Arial, Helvetica, sans-serif;
+	font-style:italic;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+img{
+	border:none;
+}
+
+.wrap{
+	height:100%;
+	width: 100%;
+	display:table;
+	text-align: center;
+
+	.align{
+		vertical-align: middle;
+		display: table-cell;
+		text-align: left;
+
+	}
+}
+
+.row{
+	.historia{
+		width: 33%;
+		padding: 0 1em;
+		margin-top: 10%;
+		
+		a{
+			display: block;
+			img{
+				max-width: 100%;
+				margin-bottom: 1em;
+			}
+		}
+	}
+
+}
+
+/*---------------------------------------------------------HEADER-------------------------------------------------------------*/
+#header{
+	background:url(../img/header.png);
+	background-repeat:no-repeat;
+	width:940px;
+	height:120px;
+	margin:0px auto 19px auto;
+	font-size:12px;
+}
+#contacto{
+	float:right;
+	margin-right:50px;
+	margin-top:40px;
+}
+
+#contacto2{
+	float:right;
+	margin-right:50px;
+	margin-top:30px;
+}
+#header .gris{
+	color:#666666;
+	
+}
+#header .azul{
+	color:#0099CC;
+	margin-top:-10px;
+}
+/*-------------------------------------------------------FIN HEADER --------------------------------------------------------*/
+/*---------------------------------------------------------- MENUS -----------------------------------------------------------*/
+/*----- MENU PRINCIPAL y MENU IZQUIERDA ---------*/
+#experiencia{
+	width:304px;
+	height:440px;
+	float:left;
+	background:url(../img/experiencia.jpg);
+	margin-right:4px;
+}
+#experiencia2{
+	width:304px;
+	height:440px;
+	float:left;
+	background:url(../img/experiencia.jpg);
+	margin-right:4px;
+}
+#experiencia:hover{
+	background:url(../img/experiencia2.jpg);
+}
+#profesionalismo{
+	width:304px;
+	height:440px;
+	float:left;
+	background:url(../img/profesionalismo.jpg);
+	margin-right:4px;
+}
+#profesionalismo2{
+	width:304px;
+	height:440px;
+	float:left;
+	background:url(../img/profesionalismo.jpg);
+	margin-right:4px;
+}
+#profesionalismo:hover{
+	background:url(../img/profesionalismo2.jpg);
+}
+#cercania{
+	width:304px;
+	height:440px;
+	float:left;
+	background:url(../img/cercania.jpg);
+	margin-right:4px;
+}
+#cercania2{
+	width:304px;
+	height:440px;
+	float:left;
+	background:url(../img/cercania.jpg);
+	margin-right:4px;
+}
+#cercania:hover{
+	background:url(../img/cercania2.jpg);
+}
+/*---LABELS MENU INDEX --------*/
+.tagmenu{
+	width:250px;
+	height:70px;
+	background-color:#0087BC;
+	border:1px solid #0087BC;
+	border-top-right-radius:8px;
+	-moz-border-top-right-radius:8px;
+	border-bottom-right-radius:8px;
+	-moz-border-bottom-right-radius:8px;
+	margin-top:340px;
+}
+.tagmenu h1{
+	font: italic 400 24px Calibri, sans-serif;
+	color:#fff;
+	margin:20px auto 30px auto;
+	text-align:center;
+}
+/*---- LABELS MENU LATERAL -----------*/
+.tagmenu1{
+	width:250px;
+	height:70px;
+	background-color:#0087BC;
+	border:1px solid #0087BC;
+	border-top-right-radius:8px;
+	-moz-border-top-right-radius:8px;
+	border-bottom-right-radius:8px;
+	-moz-border-bottom-right-radius:8px;
+	margin-top:140px;
+}
+.tagmenu1 h1{
+	font: italic 400 24px Calibri, sans-serif;
+	color:#fff;
+	margin:20px auto 30px auto;
+	text-align:center;
+}
+/*------------ MENUS Y SUBMENUS LATERALES -------------*/
+.menu1{
+	width:250px;
+	margin-top:20px;
+}
+.menu1 ul{
+	width:100%;
+	list-style:none;
+}
+.menu1 li{
+	text-align:left;
+}
+	
+.menu1 ul li a{
+	font: italic 700 18px Calibri, sans-serif;
+	padding-left:40px;
+	color:#fff;
+}
+.menu1 ul li a p{
+	font: italic 700 18px Calibri, sans-serif;
+	padding-left:40px;
+	line-height:18px;
+	margin:-20px 0px 5px 0px;
+	color:#fff;
+}
+
+.menu1 ul li p{
+	font: italic 700 18px Calibri, sans-serif;
+	padding-left:40px;
+	line-height:18px;
+	margin:-20px 0px 5px 0px;
+}
+
+
+.menu1 ul li:hover, .menu1 ul li.active {background: url(../img/bgmenu.png);}
+.menu1 ul li:hover>a, .menu1 ul li.active>a {color:#666 !important}
+.menu1 ul li a:link{color:#fff; text-decoration:none;}
+.menu1 ul li a:visited{color:#fff; text-decoration:none;}
+.menu1 ul li a:hover{ color:#666666; text-decoration:none;}
+.menu1 ul li a:active{color:#fff; text-decoration:none;}
+
+.menu1 #submenu li{
+	margin:auto auto auto 60px;
+	font-size:16px;
+	color:#fff;
+	line-height:16px;
+	vertical-align:middle;
+	padding-left:10px;	
+}
+.menu1 #submenu{
+	display:none;
+}
+.menu1 #submenu li:hover{
+	background:#0099CC;
+}
+.menu1 #submenu li a:link{color:#fff; text-decoration:none;top:5px; font-size:14px; margin:5px auto auto 0px; padding:0px 0px 0px 5px;}
+.menu1 #submenu li a:visited{color:#fff; text-decoration:none;top:5px; font-size:14px; margin:5px auto auto 0px; padding:0px 0px 0px 5px;}
+.menu1 #submenu li a:hover{color:#fff; text-decoration:none;top:5px; font-size:14px; margin:5px auto auto 0px; padding:0px 0px 0px 5px;}
+/*--------------------------------------------------------- FIN MENUS --------------------------------------------------------------*/
+/*----------------------------------------------------------CONTENIDO---------------------------------------------------------------*/
+
+/*---- GENERAL -----------*/
+#contenido{
+	width:940px;
+	margin:-15px auto 20px auto;
+}
+#derecha{
+	width:612px;
+	height:440px;
+	float:left;
+	background: url(../img/bgcontent5.png);
+	&.noFrame{
+		overflow-y: scroll;
+	}
+}
+/* ------SCROLL------- */
+
+#mycustomscroll {
+/* Typical fixed height and fixed width example */
+width: 550px;
+height: 400px;
+overflow: visible;
+/* IE overflow fix, position must be relative or absolute*/
+position: relative;
+padding: 10px;
+}
+/*------ FIN GENERAL -------*/
+
+/*--------------EXPERIENCIA (ACTUALIDAD)--------------*/
+.proyecto{
+	width:150px;
+	height:140px;
+	float:left;
+	margin:15px;
+}
+.proyecto img{
+	position:absolute;
+}
+.proyecto ul li{
+	list-style:none;
+	width:148px;
+	margin:70px 0 0 -39px;
+	background:url(../img/bgcontent2.png);
+	text-align:center;
+	font: italic 600 16px Calibri, Arial, sans-serif;
+	color:#fff;
+	position: relative;
+}
+.bloquepro{
+	width:540px;
+	height:190px;
+	margin: 0px 0px -30px 0px ;
+}
+/*-------------------- FIN EXPERIENCIA (ACTUALIDAD)-----------------------------*/
+/*--------------------- EXPERIENCIA (TRAYECTORIA) ------------------------------*/
+.trayectoria{
+	width:540px;
+	font-family:Calibri, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#fff;
+	font-weight:600;
+	text-align:center;
+	margin:0px;
+}
+/*------------ENCABEZADOS-------------*/
+.trayectoria ul{
+	list-style:none;
+	margin:0px auto auto -40px;
+}
+.trayectoria ul li{
+	background:url(../img/bgcontent3.png);
+	width:100%;
+	height:30px;
+	margin-bottom:1px;
+}
+.trayectoria ul a:link{color:#fff;}
+.trayectoria ul a:visited{color:#fff;}
+.trayectoria ul a:hover{color:#fff;}
+.trayectoria ul a:active{color:#fff;}
+.trayectoria ul li:hover{
+	background:#0099CC;
+}
+/* ver informacion */
+.div1{
+	width:30%;
+	float:left;
+	margin:0px;
+	text-align:left;
+	font-size:14px;
+	color:#fff;
+	font-weight:500;
+	line-height:30px;
+	padding-left:5%;
+	visibility:hidden;
+}
+/* fecha */
+.div2{
+	width:30%;
+	float:left;
+	margin:0px;
+	text-align:center;
+	font-size:20px;
+	font-weight:600;
+	line-height:30px;
+}
+/* ubicacion */
+.div3{
+	width:25%;
+	float:left;
+	margin:0px;
+	text-align:center;
+	font-size:14px;
+	font-weight:600;
+	line-height:30px;
+	visibility:hidden;
+}
+
+
+/* ver informacion */
+.div1_1{
+	width:25%;
+	float:left;
+	margin:0px;
+	text-align:left;
+	font-size:12px;
+	color:#fff;
+	font-weight:500;
+	line-height:30px;
+	padding-left:5%;
+	visibility:hidden;
+}
+/* fecha */
+.div2_1{
+	width:40%;
+	float:left;
+	margin:0px;
+	text-align:center;
+	font-size:15px;
+	font-weight:600;
+	line-height:30px;
+}
+/* ubicacion */
+.div3_1{
+	width:25%;
+	float:left;
+	margin:0px;
+	text-align:center;
+	font-size:12px;
+	font-weight:600;
+	line-height:30px;
+	visibility:hidden;
+}
+
+
+/* --------------------- FIN ENCABEZADOS ----------*/
+/*------------PROYECTOS INDIVIDUALES-----------------*/
+.trayectoria ul .trapro{
+	background:url(../img/bgcontent4.png);
+	width:100%;
+	height:48px;
+}
+.trayectoria ul .trapro:hover{background:url(../img/bgcontent4.png);}
+.trayectoria ul .trapro #ent{
+	background:url(../img/bgcontent3.png);
+/*	background-repeat:repeat-y;
+*/	width:20%;
+	text-align:center;
+	line-height:0px;
+	float:left;
+	margin:0px;
+}
+.trayectoria ul .trapro #ent .titulo{
+	font-size:8px;
+}
+.trayectoria ul .trapro #ent .nombre{
+	font-size:11px;
+	line-height:9px;
+}
+.trayectoria ul .trapro #ini .titulo{
+	font-size:8px;
+}
+.trayectoria ul .trapro #ini .nombre{
+	font-size:11px;
+	line-height:9px;
+}
+.trayectoria ul .trapro #nom{
+	width:51%;
+	text-align:center;
+	font-size:14px;
+	line-height:20px;
+	float:left;
+	margin:0px;
+}
+.trayectoria ul .trapro #ini{
+	width:14%;
+	text-align:center;
+	font-size:12px;
+	line-height:19px;
+	float:left;
+	margin:0px;
+}
+.trayectoria ul .trapro #fin{
+	width:15%;
+	text-align:center;
+	font-size:12px;
+	line-height:19px;
+	float:left;
+	margin:0px;
+}
+/*----------------------FIN PROYECTOS INDIVIDUALES---------------*/
+/*-------------------------------------- FIN EXPERIENCIA (TRAYECTORIA)--------------------------------------------*/
+/*------------------------CONTENIDO GENERAL------------------------*/
+.historia{
+	/*background:url(../img/bgcontent3.png);*/
+	text-align:left;
+	float:left;
+}
+.historia h1{
+	font-family:Calibri, Arial, Helvetica, sans-serif;
+	font-style:italic;
+	font-size:18px;
+	color:#0099CC;
+	margin:0px 10px 5px 10px;
+	padding:10px;
+}
+.historia h2, h3{
+	font-family:Calibri, Arial, Helvetica, sans-serif;
+	font-style: italic;
+}
+.historia h2{
+	font-size:20px;
+	color:#0099CC;
+	
+}
+.historia h3{
+	font-size:15px;
+	width:100%;
+	color:#6C6C6C;
+	font-weight:100;
+}
+.historia p{
+	font-family:Calibri, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	text-align:justify;
+	font-size:14px;
+	color:#6C6C6C;
+	margin:0px 10px 5px 10px;
+	padding:10px;
+}
+
+#texto_cercania{
+	font-family:Calibri, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-size:14px;
+	color:#fff;
+	margin:0px 10px 5px 10px;
+	padding:10px;
+}
+
+.historia div p{
+	width:100%;
+	font-size:12px;
+	float:left;
+	margin:-7px 13px;
+	text-align:center;
+	font-style:italic;
+	font-weight:600;
+}
+.historia div div{
+	width:15%;
+	margin:0px 5%;
+	float:left;
+}
+.historia div div div{
+	width:100%;
+	height:15px;
+	margin:5px auto;
+	border-radius:7px;
+	-moz-border-radius:7px;
+}
+.historia .bloque .maquinaria{
+	width:150px;
+	height:150px;
+	/*background:url(../img/bgmenu.png);
+	background-color: #fff;*/
+	-moz-border-radius:7px;
+	border-radius:7px;
+	float:left;
+	margin:15px;
+}
+
+.volver{
+	width:405px;
+	padding: 10px;
+	background:#0099CC;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-family:Calibri, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-size:14px;
+	text-align: center;
+	cursor: pointer;
+	margin: 0px 4px auto 40px;
+	
+}
+
+
+.volver a:hover{
+	color: #0099CC;
+	text-decoration:none;
+}
+
+.volver a:visited{
+	color:#FFF;
+	text-decoration:none;
+}
+
+.historia .maquinaria:hover{
+	background:url(../img/bgazul.png);
+}
+.historia .bloque{
+	height:350px;
+	width:600px;
+	margin:0px 0px -250px 0px;
+}
+.historia .maquina{
+	width:540px;
+	min-height:350px;
+	margin:auto;
+}
+.historia .maquina #img{
+	width:200px;
+	height:318px;
+	float:left;
+	margin:20px 20px 0px 40px;
+	border-radius:7px;
+	-moz-border-radius:7px;
+	overflow:hidden;
+}
+.historia .maquina #texto{
+	width:210px;
+	color:#6C6C6C;
+	margin:20px 0px 0px 0px;
+	padding-top:15px;
+	text-align:left;
+}
+.historia .maquina #texto p{
+	color:#6C6C6C;
+	font-size:12px;
+	margin:0px 0px -10px;
+	line-height:12px;
+	width:210px; 
+	text-align:left;
+}
+/*----------------------------------------------------------------- FIN CONTENIDO ----------------------------------------------------------*/
+/*------------------------------------------------------ FOOTER ----------------------------------------------------------*/
+#footer{
+	background:url(../img/footer.png);
+	background-repeat:no-repeat;
+	width:940px;
+	height:97px;
+	margin:458px auto 0px auto;
+}
+#footer1{
+	height:60px;
+	width:25%;
+	margin:40 0 auto 0;
+	float:left;
+}
+#footer1 p{
+	margin-top:40px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666666;
+	text-align:center;
+}
+#footer2{
+	height:80px;
+	width:50%;
+	float:left;
+	width:400px;
+	margin:0 auto;
+	padding-left:7%;
+}
+/*#footer2 {
+	margin-top:70px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#666666;
+	text-align:center;
+	float:left;
+}*/
+#footer2 a{
+	font-size:15px;
+	margin-right:10px;
+	line-height: 80px;
+}
+#footer2 a:link{color:#666666; text-decoration:none; border-bottom:5px solid #fff;}
+#footer2 a:visited{color:#666666; text-decoration:none; border-bottom:5px solid #fff;}
+#footer2 a:hover{color:#666666; text-decoration:none; border-bottom:5px solid #0099CC;}
+#footer2 a:active{color:#666666; text-decoration:none; border-bottom:5px solid #0099CC;}
+#footer3{
+	height:60px;
+	width:25%;
+	margin:40 0 auto 0;
+	float:left;
+}
+.blue{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#0099CC;
+	line-height:12px;
+}
+.grey{
+		line-height:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666666;
+}
+/*--------------------------------------------- FIN FOOTER ----------------------------------------------------*/	
+	

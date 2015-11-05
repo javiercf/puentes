@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="puentesApp">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="css/main.css" type="text/css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="css/lytebox.css">
+
+	<title>Puentes y Carreteras</title>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body onload="randBackground()">
+	<div class="wrap">
+		<div class="align">
+			<!--header-->
+			<header id="header">
+				<a href="index.html"><img src="img/logo.png" alt="Logotipo Puentes y Carreteras" height="70" style="margin:30px 30px 30px 30px" /></a>
+				<div id="contacto2">
+					<p class="grey">Puentes y Carreteras S.A.S.</p>
+					<p class="blue">Nit 860.402.284-0</p>
+					<p class="grey">Dir.: Av. 7 No 114 - 33, Of 705 <br />Centro Empresarial Santa Bárbara</p>
+					<p class="grey">Tel.: (57 1) 640 06 30 / 31 / 32 </p>
+					<p class="blue">Bogot&aacute; - Colombia</p>
+				</div>
+
+				<div id="contacto">
+
+				</div>
+
+			</header>
+			<!--fin header-->
+
+
+			<div id="contenido" ng-controller="profesionalismoCtrl">
+				<div id="profesionalismo2">
+					<div class="tagmenu1">
+						<h1>Profesionalismo</h1>
+					</div>
+					<div class="menu1">
+						<ul>
+							<li ng-class="{active:checkTab(1)}">
+								<a href="" ng-click="setTab(1)">Nuestra &eacute;tica</a>
+							</li>
+							<li ng-class="{active:checkTab(2)}">
+								<a href="" ng-click="setTab(2)">Certificaciones</a>
+							</li>
+							<li ng-class="{active:checkTab(3)}">
+								<a href="" ng-click="setTab(3)">Evaluaci&oacute;n Ruc</a>
+							</li>
+							<li ng-class="{active:checkTab(4)}">
+								<a href="" ng-click="setTab(4)">Nuestra maquinaria</a>
+							</li>
+							<li ng-class="{active:checkTab(5)}">
+								<a href="" ng-click="setTab(5)">Equipo</a>
+							</li>
+							<li ng-class="{active:checkTab(6)}">
+								<a href="" ng-click="setTab(6)">Proceso constructivo</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div id="derecha" class="noFrame">
+					<!--Etica-->
+					<section ng-show="checkTab(1)">
+						<div class="historia" style="width:500px; margin-left:5%;">
+							<br /><br /><br />
+							<h1>&Eacute;tica profesional</h1>
+							<p>
+								Promulgamos ante todo la responsabilidad moral frente a la profesi&oacute;n o cargo que cada uno de los trabajadores ejerce. Fomentamos la transparencia en todos y cada uno de nuestros procesos constructivos y administrativos. Cumplimos a cabalidad con los acuerdos establecidos y requerimientos adquiridos. Buscamos soluciones en las que prima, por encima de todo, el beneficio integral de nuestros clientes.
+							</p>
+							<p>
+								Rechazamos cualquier tipo de contraprestaci&oacute;n por los trabajos que ejecutamos. Creemos y aportamos a la conservaci&oacute;n de los recursos naturales fundamentales para la vida. Construimos conciencia para evitar contaminaci&oacute;n o da&ntilde;os al ecosistema.
+							</p>
+							<p>
+								Valoramos y respetamos la integridad social de nuestros trabajadores y las comunidades influyentes en nuestras obras. Respetamos las diferencias y promulgamos la integraci&oacute;n de la diversidad de nuestro recurso humano para construir un mejor grupo de trabajo.
+							</p>
+							<br />
+							<br />
+							<h1>&Eacute;tica legal</h1>
+							<p>
+								El cumplimiento de todas nuestras obligaciones legales y administrativas es determinante en nuestra compa&ntilde;&iacute;a. Cumplimos con el Estado, con nuestros trabajadores y proveedores haciendo de nuestra compa&ntilde;&iacute;a una entidad privada seria, responsable y consciente.
+							</p>
+							<p>
+								El marco legal relacionado con la seguridad, salud ocupacional y medio ambiente es para nosotros tan importante como la ejecuci&oacute;n misma de nuestras obras civiles.
+							</p>
+
+							<br /><br />
+							<h1>&Eacute;tica social</h1>
+							<p>
+								El respeto a la sociedad es fundamental para el crecimiento, desarrollo y buen nombre de nuestra compa&ntilde;&iacute;a. La integridad y honestidad que nos caracterizan nos permiten enfocarnos en nuestro compromiso laboral y social, con el fin de satisfacer tanto a nuestros clientes como a la comunidad involucrada, creando en cada frente de trabajo un clima laboral de respeto y confianza.
+							</p>
+							<br /><br /><br /><br />
+
+						</div>
+					</section>
+					<section ng-show="checkTab(2)">
+
+						<div class="row">
+							<div class="historia">
+								<a href="img/iso9001.pdf" target="_blank" rel="lyteframe">
+									<img src="img/ISO9001_2.png" alt="ISO9001"/>
+								</a>
+								<h2 class="certificaciones">
+									ISO 9001
+								</h2>
+								<h3 class="certificaciones">
+									Certificado de calidad
+								</h3>
+							</div>
+
+							<div class="historia">
+								<a href="img/iso14001-1.pdf" target="_blank" rel="lyteframe">
+									<img src="img/ISO14001_2.png" alt="ISO9001"/>
+								</a>
+								<h2 class="certificaciones">
+									ISO 14001
+								</h2>
+								<h3 class="certificaciones">
+									Certificado de Sistema de Gestión Ambiental
+								</h3>
+							</div>
+
+							<div class="historia">
+								<a href="img/ohsas.pdf" target="_blank" rel="lyteframe">
+									<img src="img/OHSAS_2.png" alt="ISO9001"/>
+								</a>
+								<h2 class="certificaciones">
+									OHSAS 18001
+								</h2>
+								<h3 class="certificaciones">
+									Certificado de Sistema de Gestión en Seguridad
+								</h3>
+							</div>
+						</div>
+					</section>
+					<section ng-show="checkTab(3)">
+						<div class="historia"  style="margin-top:10%;">
+							<a href="img/ruc-1.pdf" target="_blank" rel="lyteframe">
+								<img src="img/ruc.png" alt="Evaluación RUC" style="margin:10px auto auto 30px;"/>
+							</a>
+							<h2 style="margin:10px auto auto 30px;">Evaluaci&oacute;n RUC</h2>
+							<h3 style="margin:auto auto auto 30px;">Evaluaci&oacute;n de contratistas del sector de Hidrocarburos</h3>
+						</div>
+					</section>
+					<section ng-show="checkTab(4)" class="blackModule">
+						<div class="historia">
+							<div class="bloque">
+								<div class="maquinaria">
+									<a ng-click="setTab(7)">
+										<img src="img/motoniveladoras.png" />
+									</a>
+								</div>
+								<div class="maquinaria">
+									<a ng-click="setTab(8)">
+										<img src="img/retroex.png" />
+									</a>
+								</div>
+								<div class="maquinaria">
+									<a ng-click="setTab(9)">
+										<img src="img/vibrocompac.png"/>
+									</a>
+								</div>
+							</div>
+							<div class="bloque">
+								<div class="maquinaria">
+									<a ng-click="setTab(10)">
+										<img src="img/retrocarg.png"/>
+									</a>
+								</div>
+								<div class="maquinaria">
+									<a ng-click="setTab(11)">
+										<img src="img/bulldozer.png"/>
+									</a>
+								</div>
+								<div class="maquinaria">
+									<a ng-click="setTab(12)">
+										<img src="img/vehiculos_pe.png"/>
+									</a>
+								</div>
+							</div>
+							<div class="bloque">
+								<div class="maquinaria">
+									<a ng-click="setTab(13)" href="#" target="_self">
+										<img src="img/infraestructura_camp.png"/>
+									</a>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section ng-show="checkTab(5)">
+					<h5 class="anchor">Haga click sobre la imagen para ver el zoom</h5>
+						<!--equipo-->
+						<div class="zoom">
+							<img src="img/organigramapyc.jpg" alt="Organigrama">
+						</div>
+					</section>
+					<section ng-show="checkTab(6)">
+					<h5 class="anchor">Haga click sobre la imagen para ver el zoom</h5>
+						<!--procesos-->
+						<div class="zoom">
+							<img src="img/proceso.jpg">
+						</div>
+					</section>
+					<section ng-show="checkTab(7)">
+						<div class="historia">  
+							<div class="maquina">
+								<div id="img">
+									<img src="img/motoniveladora.jpg" alt=""  />
+								</div>
+								<div id="texto">
+									<p>Vehiculo: Motoniveladora</p>
+									<p>Marca: Caterpillar</p>
+									<p>Modelo: 120H</p>
+									<p>Año: 2005</p>
+									<br /><br /><br />
+									<br /><br />
+									<hr width="200"/>
+									<p>Vehiculo: Motoniveladora</p>
+									<p>Marca: Caterpillar</p>
+									<p>Modelo: 120H</p>
+									<p>Año: 2007</p>
+									<br /><br /><br />
+									<br /><br />
+									<hr width="200"/>
+									<p>Vehiculo: Motoniveladora</p>
+									<p>Marca: Caterpillar</p>
+									<p>Modelo: 120K</p>
+									<p>Año: 2009</p>
+									<br /><br /><br />
+									<br /><br />
+								</div>
+
+							</div>
+							<div class="volver">
+								<a ng-click="setTab(4)" target="_self">
+									<strong>VOLVER</strong>
+								</a>
+							</div>
+						</div>
+					</section>
+					<section ng-show="checkTab(8)">
+						<div class="historia">
+							<div class="maquina">
+								<div id="img">
+									<img src="img/retroex.jpg" alt="Retroexcavadora"  />
+								</div>
+								<div id="texto">
+									<!--<img src="img/caterpillar.png" alt="" width="200" />-->
+									<p>Vehiculo: Retroexcavadora</p>
+									<p>Marca: Caterpillar</p>
+									<p>Modelo: 320CLME</p>
+									<p>Año: 2006</p>
+									<br /><br /><br /><br />
+									<hr width="200"/>
+									<p>Vehiculo: Retroexcavadora</p>
+									<p>Marca: Caterpillar</p>
+									<p>Modelo: 320DLME</p>
+									<p>Año: 2008</p>
+									<br /><br /><br />
+									<hr width="200"/>
+									<p>Vehiculo: Retroexcavadora</p>
+									<p>Marca: Caterpillar</p>
+									<p>Modelo: 320D REACH</p>
+									<p>Año: 2009</p>
+									<br /><br /><br />
+									<hr width="200"/>
+								</div>
+
+							</div>
+							<div class="volver">
+								<a ng-click="setTab(4)" target="_self">
+									<strong>VOLVER</strong>
+								</a>
+							</div>
+						</div>
+					</section>
+					<section ng-show="checkTab(9)">
+						<div class="historia">
+							<div class="maquina">
+								<div id="img">
+									<img src="img/vibrocom.jpg" alt="Vibrocompactadora" />
+								</div>
+								<div id="texto">
+									<!--<img src="img/caterpillar.png" alt="" width="200" />-->
+									<p>Vehiculo: Vibrocompactador</p>
+									<p>Marca: Caterpillar</p>
+									<p>Modelo: CS-533E</p>
+									<p>Año: 2008</p>
+									<br /><br /><br /><br />
+									<hr width="200"/>
+									<p>Vehiculo: Vibrocompactador</p>
+									<p>Marca: Caterpillar</p>
+									<p>Modelo: CS-533E</p>
+									<p>Año: 2008</p>
+									<br /><br /><br />
+									<hr width="200"/>
+									<p>Vehiculo: Vibrocompactador</p>
+									<p>Modelo: CS-533E</p>
+									<p>Marca: Caterpillar</p>
+									<p>Año: 2010</p>
+									<br /><br /><br />
+									<hr width="200"/>
+
+								</div>
+
+							</div>
+							<div class="volver">
+								<a ng-click="setTab(4)" target="_self">
+									<strong>VOLVER</strong>
+								</a>
+							</div>
+						</div>
+					</section>
+					<section ng-show="checkTab(10)">
+						<div class="historia">
+							<div class="maquina">
+								<div id="img">
+									<img src="img/retrocargadora.jpg" alt="Retrocargadora"  />
+								</div>
+								<div id="texto">
+									<!--<img src="img/johndeere.png" alt=""/>-->
+									<p>Vehiculo: Retrocargador</p>
+									<p>Marca: John Deere</p>
+									<p>Modelo: 410G</p>
+									<p>Año: 2005</p>
+									<br /><br /><br /><br />
+									<hr width="200"/>
+									<p>Vehiculo: Retrocargador</p>
+									<p>Marca: John Deere</p>
+									<p>Modelo: 410J</p>
+									<p>Año: 2007</p>
+									<br /><br /><br />
+									<hr width="200"/>
+									<p>Vehiculo: Retrocargador</p>
+									<p>Marca: John Deere</p>
+									<p>Modelo: 410J</p>
+									<p>Año: 2009</p>
+									<br /><br /><br />
+									<hr width="200"/>
+								</div>
+
+							</div>
+							<div class="volver">
+								<a ng-click="setTab(4)" target="_self">
+									<strong>VOLVER</strong>
+								</a>
+							</div>
+						</div>
+					</section>
+					<section ng-show="checkTab(11)">
+
+						<div class="historia">
+							<div class="maquina">
+								<div id="img">
+									<img src="img/bulldozer.jpg" alt="Bulldozer"  />
+								</div>
+								<div id="texto">
+									<!--<img src="img/caterpillar.png" alt="" width="200"/>-->
+									<p>Vehiculo: Bulldozer</p>
+									<p>Marca: Caterpillar</p>
+									<p>Modelo: D6N-XL</p>
+									<p>Año: 2010</p>
+									<br /><br /><br /><br />
+									<hr width="200"/>
+								</div>
+
+							</div>
+							<div class="volver">
+								<a ng-click="setTab(4)" target="_self">
+									<strong>VOLVER</strong>
+								</a>
+							</div>
+						</div>
+					</section>
+					<section ng-show="checkTab(12)">
+						<div class="historia">
+							<div class="maquina" style="height:900px;">
+								<div id="img">
+									<img src="img/pesados.jpg" alt=""  />
+								</div>
+								<div id="texto">
+									<p>Vehículo: Volqueta Sencilla</p>
+									<p>Marca: Chevrolet</p>
+									<p>Modelo: KODIAK 157</p>
+									<p>Año: 2007</p>
+									<br /><br /><br />
+									<hr width="200"/>
+									<p>Vehículo: Carrotanque</p>
+									<p>Modelo: KODIAK 211</p>
+									<p>Año: 2007</p>
+									<br /><br /><br /><br />
+									<hr width="200"/>
+									<p>Vehículo: Tractomula y Cama baja</p>
+									<p>Marca: Kenworth</p>
+									<p>Modelo: T800</p>
+									<p>Año: 2008</p>
+									<br /><br /><br /><br />
+									<hr width="200"/>
+									<p>Vehículo: Volqueta Doble Troque</p>
+									<p>Marca: International</p>
+									<p>Modelo: 7600</p>
+									<p>Año: 2011</p>
+									<br /><br /><br /><br />
+									<hr width="200"/>
+								</div>
+								<div id="img">
+									<img src="img/livianos.jpg" alt=""  />
+								</div>
+								<div id="texto">
+									<p>Vehículo: Camion</p>
+									<p>Marca: Chevrolet</p>
+									<p>Modelo: NPR F. LIGHT</p>
+									<p>Año: 2008</p>
+									<br /><br /><br />
+									<hr width="200"/>
+
+								</div>
+
+							</div>
+							<div class="volver">
+								<a ng-click="setTab(4)" target="_self">
+									<strong>VOLVER</strong>
+								</a>
+							</div>
+						</div>
+					</section>
+					<section ng-show="checkTab(13)">
+						<div class="historia">
+							<div class="maquina">
+							<div id="img">
+									<img src="img/infraestructura.jpg">
+								</div>
+							</div>
+							<div class="volver">
+								<a ng-click="setTab(4)" target="_self">
+									<strong>VOLVER</strong>
+								</a>
+							</div>
+						</div>
+					</section>
+				</div>
+
+
+			</div>
+			<footer id="footer">
+				<div id="footer1">
+					<p>Puentes y Carreteras &copy; PRIVACY POLICY</p>
+				</div>
+				<div id="footer2">
+					<a href="experiencia.html" target="_self">Experiencia</a>
+					<a href="profesionalismo.html" target="_self">Profesionalismo</a>
+					<a href="cercania.html" target="_self">Cercan&iacute;a</a>
+					<a href="contacto.php" target="_top" target="_self">Contacto</a>
+				</div>
+				<div id="footer3">
+					<img src="img/Logo_BV2.png" style="height:80px;"  />
+				</div>
+			</footer>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/lytebox.js"></script>
+	<script type="text/javascript" src="js/jquery.zoom.min.js"></script>
+	<script>
+		$( function() {
+			$('.zoom').zoom({magnify:.5, on:'click'});
+		} );
+	</script>
+</body>
+</html>

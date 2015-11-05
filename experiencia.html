@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="puentesApp">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="css/main.css" type="text/css" rel="stylesheet" />
+
+    <title>Puentes y Carreteras</title>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body onload="randBackground()">
+    <div class="wrap">
+        <div class="align">
+            <!--header-->
+            <header id="header">
+                <a href="index.html"><img src="img/logo.png" alt="Logotipo Puentes y Carreteras" height="70" style="margin:30px 30px 30px 30px" /></a>
+                <div id="contacto2">
+                    <p class="grey">Puentes y Carreteras S.A.S.</p>
+                    <p class="blue">Nit 860.402.284-0</p>
+                    <p class="grey">Dir.: Av. 7 No 114 - 33, Of 705 <br />Centro Empresarial Santa Bárbara</p>
+                    <p class="grey">Tel.: (57 1) 640 06 30 / 31 / 32 </p>
+                    <p class="blue">Bogot&aacute; - Colombia</p>
+                </div>
+
+                <div id="contacto">
+
+                </div>
+
+            </header>
+            <!--fin header-->
+
+
+            <div id="contenido" ng-controller="experienciaCtrl">
+                <aside id="experiencia2">
+                    <div class="tagmenu1">
+                        <h1>Experiencia</h1>
+                    </div>
+                    <nav class="menu1">
+                        <ul>
+                            <li ng-class="{active:checkTab(1)}">
+                                <a href="" ng-click="setTab(1)">Actualidad</a>
+                            </li>
+
+                            <li ng-class="{active:checkTab(2)}">
+                                <a href="" ng-click="setTab(2)">Trayectoria</a>
+                            </li>
+                            <li ng-class="{active:checkTab(3)}">
+                                <a href="" ng-click="setTab(3)">Historia</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+                <main id="derecha" class="noFrame">
+                    <section ng-show="checkTab(1)">
+                        <ul id="cbp-ntaccordion" class="cbp-ntaccordion">
+                            <li ng-repeat="year in actualidad">
+                                <h3 class="cbp-nttrigger">{{year.year}}</h3>
+                                <div class="cbp-ntcontent">
+                                    <table class="contentTable">
+                                        <thead>
+                                            <tr>
+                                                <th>Cliente</th>
+                                                <th>Ubicación</th>
+                                                <th>Proyecto</th>
+                                                <th>Bloque</th>
+                                                <th>Fecha</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr ng-repeat="proyect in year.proyectos">
+                                                <td class="client">{{proyect.CLIENTE}}</td>
+                                                <td>{{proyect.UBICACION}}</td>
+                                                <td>{{proyect.OBJETO}}</td>
+                                                <td>{{proyect.BLOQUE}}</td>
+                                                <td class="date">{{proyect.FECHA}}</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section ng-show="checkTab(2)">
+                        <ul id="cbp-ntaccordion-2" class="cbp-ntaccordion">
+                            <li ng-repeat="year in trayectoria">
+                                <h3 class="cbp-nttrigger">{{year.year}}</h3>
+                                <div class="cbp-ntcontent">
+                                    <table class="contentTable">
+                                        <thead>
+                                            <tr>
+                                                <th>Cliente</th>
+                                                <th>Ubicación</th>
+                                                <th>Proyecto</th>
+                                                <th>Fecha</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr ng-repeat="proyect in year.proyectos">
+                                                <td class="client">{{proyect.cliente}}</td>
+                                                <td>{{proyect.ubicacion}}</td>
+                                                <td>{{proyect.proyecto}}</td>
+                                                <td class="date">{{proyect.final}}</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section ng-show="checkTab(3)">
+                        <div class="historia">
+                            <br /><br /><br />
+                            <h1 style="font-size:32px;">Historia</h1>
+                            <p>
+                              Puentes y Carreteras naci&oacute; en 1982, bajo la iniciativa y visi&oacute;n del ingeniero Josu&eacute; Granados
+                              Agudelo, socio fundador y hoy presidente de la firma, quien contaba con una carrera de ocho a&ntilde;os
+                              de experiencia como contratista independiente en el sector p&uacute;blico en la que construy&oacute; obras
+                              importantes como el puente en la Avenida 0 (cero) en la ciudad de C&uacute;cuta, de 250 metros de
+                              luz; el Puente Lisio y Puente Reyes en la v&iacute;a que conduce a la represa de El Guavio y otros de
+                              menor longitud en los departamentos de Boyac&aacute;, Meta, Casanare, Santander, Cundinamarca y el
+                              Distrito Especial de Bogot&aacute;, por intermedio del Ministerio de Obras P&uacute;blicas, Caminos Vecinales,
+                              Secretar&iacute;as de Obras P&uacute;blicas Departamentales y del Instituto de Desarrollo Urbano de Bogot&aacute;
+                              (IDU).
+                          </p>
+                          <p>
+                              Gracias a la trayectoria, experiencia y reconocimiento de Josu&eacute; Granados A. en los Llanos
+                              Orientales, Puentes y Carreteras pudo vincularse con importantes compa&ntilde;&iacute;as petroleras tales como
+                              Elf Aquitaine, Uni&oacute;n Texas, Lasmo, y British Petroleum, entre otras, para la construcci&oacute;n, adecuaci&oacute;n
+                              y mantenimiento de v&iacute;as y obras de infraestructura para la exploraci&oacute;n de hidrocarburos.
+                          </p>
+                          <p>
+                            En la d&eacute;cada de los 80 las condiciones de trabajo eran muy distintas a las actuales: las
+                            comunicaciones se adelantaban por radiotel&eacute;fono, &uacute;nicamente en horas de la madrugada, y en
+                            muchas ocasiones las conversaciones se cruzaban con otras frecuencias, hecho que dificultaba
+                            enormemente la transmisi&oacute;n de los mensajes. Hoy en d&iacute;a, la tecnolog&iacute;a ha permitido que lo que
+                            antes tomaba varias horas se haga en tan solo unos minutos: los sitios de trabajo cuentan hoy
+                            d&iacute;a con acceso a Internet y se&ntilde;al de celular. De igual forma, los avances en infraestructura han
+                            permitido un acceso m&aacute;s f&aacute;cil a lugares a los que antes se llegaba &uacute;nicamente por mula o a caballo
+                            y se ha reducido el tiempo de transporte de soluciones t&eacute;cnicas para maquinaria, alimentaci&oacute;n, etc.
+                        </p>
+                        <p>
+                            A partir de 1983, Puentes y Carreteras, junto con Elf Alquitaine, construy&oacute; plataformas y v&iacute;as de
+                            acceso para perforar pozos como Chaparrito 1, Palmarito, Los Toros, Sirenas, Sardinas 1, Morichal,
+                            Totumo 1, Up&iacute;a 1, Jord&aacute;n, La Flora, Trinidad Este, Trinidad Norte, Barquere&ntilde;a, Cravo Sur, Tierra
+                            Blanca Sur, Ca&ntilde;o Garza 3, Guanapalo, Jord&aacute;n Norte, Gloria 2, Cravo Este y Las Abejas, entre
+                            otros.
+                        </p>
+                        <p>
+                            En 1987 se dio la llegada de British Petrolium a la regi&oacute;n, empresa con la que Puentes y Carreteras
+                            tambi&eacute;n particip&oacute; en la construcci&oacute;n de v&iacute;as de acceso y locaciones tales como Cusiana 1, Cusiana
+                            2A, Cusiana 3, Cupiagua 1, Cupiagua 2, Chitamena 1, Pauto 1, Pauto 2, El CPF y otras m&aacute;s.
+                        </p>
+                        <p>
+                            Debido a la inseguridad en los Llanos Orientales, a mediados de la d&eacute;cada de los 90, Puentes
+                            y Carreteras se retir&oacute; de la regi&oacute;n y, de cierta manera, de los proyectos de infraestructura para
+                            el sector de hidrocarburos e inici&oacute; una nueva etapa ejecutando obras de construcci&oacute;n para la
+                            Aeron&aacute;utica Civil y las gobernaciones de Cundinamarca y Boyac&aacute;.
+                        </p>
+                        <p>
+                            Para el a&ntilde;o 2006, los socios y hermanos Fabi&aacute;n y Juan Pablo, en representaci&oacute;n de la segunda
+                            generaci&oacute;n de esta empresa familiar, ingresaron a la compa&ntilde;&iacute;a como directivos de la misma: Fabi&aacute;n,
+                            como Gerente General y Juan Pablo, como Director Administrativo y Financiero. A partir de ese
+                            momento, Puentes y Carreteras retom&oacute; su actividad principal, y nuevamente se instal&oacute; en los Llanos
+                            Orientales, departamentos de Meta y Casanare, con el objeto de ejecutar obras de ingenier&iacute;a civil
+                            para infraestructura petrolera; en primera instancia, con Hupecol Operating Co., para quien a la
+                            fecha se han construido alrededor de 100 kil&oacute;metros de v&iacute;as y aproximadamente 20 locaciones
+                            en diferentes bloques. Actualmente, tambi&eacute;n ejecutan obras para la firma New Granada Energy
+                            Corporation.
+                        </p>
+                    </div>
+                </section>
+            </main>
+
+        </div>
+        <footer id="footer">
+            <div id="footer1">
+                <p>Puentes y Carreteras &copy; PRIVACY POLICY</p>
+            </div>
+            <div id="footer2">
+                <a href="experiencia.html" target="_self">Experiencia</a>
+                <a href="profesionalismo.html" target="_self">Profesionalismo</a>
+                <a href="cercania.html" target="_self">Cercan&iacute;a</a>
+                <a href="contacto.php" target="_top" target="_self">Contacto</a>
+            </div>
+            <div id="footer3">
+                <img src="img/Logo_BV2.png" style="height:80px;"  />
+            </div>
+        </footer>
+    </div>
+</div>
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/jquery.cbpNTAccordion.min.js"></script>
+<script>
+    $( function() {
+        $( '.cbp-ntaccordion' ).cbpNTAccordion();
+    } );
+</script>
+</body>
+</html>

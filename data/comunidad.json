@@ -1,0 +1,32 @@
+[
+	{
+		"nombre":"Tulio Ramiro Guacaneme",
+		"cargo":"Propietario Ferretería Guacanem",
+		"ubicacion":"Puerto Lopez - Meta",
+		"testimonio": "...resalto el buen trato por parte de los trabajadores de Puentes y Carreteras y los pagos puntuales por los créditos otorgados. Siempre se mantuvo una buena relación comercial; sin presentar quejas o inconvenientes"
+	},
+	{
+		"nombre":"Carlos Montenegro",
+		"cargo":"Gerente de Metranspuerto ",
+		"ubicacion":"Puerto Lopez – Meta",
+		"testimonio":"La empresa Puentes y Carreteras fue siempre responsable con los pagos a los contratistas  de la zona, también muy atentos a las solicitudes y opiniones. Generó bastante empleo y bienestar para las comunidades de nuestro municipio"
+	},
+	{
+		"nombre":"Ana Dolores Rivera",
+		"cargo":"Prestadora de servicios de la comunidad influyente",
+		"ubicacion":"Verada Alto Melua – Puerto Lopez - Meta",
+		"testimonio":"Me encuentro muy a gusto de haber atendido a los trabajadores de Puentes y Carreteras con los servicios de alimentación y lavandería. Mientras estuvieron presentes en la zona me ayudaron mucho. Me permitieron aumentar mis ingresos y pude contratar a otras mujeres del caserio. También me ayudaron bastante con el transporte para traer productos……La empresa en general fue muy servicial con la comunidad, la mayoría de bienes y servicios se adquirían en nuestra vereda."
+	},
+	{
+		"nombre":"Ermides Silva",
+		"cargo":"Encargado Finca Centenario",
+		"ubicacion":"Verada Alto Melua - Comunidad Influyente",
+		"testimonio":"Tuve el privilegio de tener como vecino el campamento de Puentes y Carreteras. En nombre propio, y sé que para muchos de nuestra comunidad,  ayudaron con la reparación y el mantenimiento de equipos, el  mejoramiento del agua que usamos, donación de materiales de construcción  y obras pequeñas "
+	},
+	{
+		"nombre":"Omar Guavita Bermúdez",
+		"cargo":"Presidente Junta de Acción Comunal",
+		"ubicacion":"Alto Melua – Puerto Lopez Meta",
+		"testimonio":"…me siento muy agradecido con la empresa Puentes y Carreteras, ya que ayudó mucho a nuestra comunidad con el mejoramiento de las vías, la oportunidad de empleos, el comercio para los restaurantes y residencias, presentó cumplimiento en los pagos, buen comportamiento de su personal, nunca se presentaron quejas por pagos, obsequió regalos en el día de las madres, prestó servicios de transporte a la comunidad para llevar enfermos y donó materiales para la construcción de viviendas.  Siempre hubo respeto hacia la comunidad y el medio ambiente"
+	}
+]

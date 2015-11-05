@@ -1,0 +1,18 @@
+.blackModule, .blackModule .historia{
+	background: url(../img/bgcontent3.png);
+	width: 100%;
+
+	.bloque{
+		height: auto;
+		width: 100%;
+		clear: both;
+		margin: 0;
+		.maquinaria{
+			background: rgba(#fff, .6);
+		}
+	}
+}
+
+[ng-click]{
+	cursor: pointer;
+}
