@@ -4,17 +4,17 @@
 		"proyectos": [
 		{
 			"cliente": "Union Texas Petroleum",
-			"proyecto": "Construccion de obras civiles para perforacion del pozo La Maria",
+			"proyecto": "Construcción de obras civiles para perforación del pozo La Maria",
 			"ubicacion": "CASANARE",
 			"inicio": "1/15/85",
-			"final": "5/31/85"
+			"final": "31-may-85"
 		},
 		{
 			"cliente": "Union Texas Petroleum",
-			"proyecto": "Construccion de obras civiles para perforacion del pozo Leticia 1",
+			"proyecto": "Construcción de obras civiles para perforación del pozo Leticia 1",
 			"ubicacion": "CASANARE",
 			"inicio": "2/28/85",
-			"final": "7/8/85"
+			"final": "8-jul-85"
 		}
 		]
 	},
@@ -23,52 +23,52 @@
 		"proyectos":[
 		{
 		"cliente": "Elf Aquitaine Colombie",
-		"proyecto": "Construccion de obras civiles para perforacion del pozo Palmarito",
+		"proyecto": "Construcción de obras civiles para perforación del pozo Palmarito",
 		"ubicacion": "CASANARE",
 		"inicio": "1/1/88",
-		"final": "1/30/88"
+		"final": "30-ene-88"
 	},
 	{
 		"cliente": "Elf Aquitaine Colombie",
-		"proyecto": "construccion de obras civiles, locacion y vias de acceso para el pozo Cravo Sur 3",
+		"proyecto": "Construcción de obras civiles, locación y vías de acceso para el pozo Cravo Sur 3",
 		"ubicacion": "CASANARE",
 		"inicio": "1/5/88",
-		"final": "2/21/88"
+		"final": "21-feb-88"
 	},
 	{
 		"cliente": "Elf Aquitaine Colombie",
-		"proyecto": "Construccion de obras civiles para perforacion del pozo Cravo sur 2",
+		"proyecto": "Construcción de obras civiles para perforación del pozo Cravo sur 2",
 		"ubicacion": "CASANARE",
 		"inicio": "2/1/88",
-		"final": "2/25/88"
+		"final": "25-feb-88"
 	},
 	{
 		"cliente": "Elf Aquitaine Colombie",
-		"proyecto": "Construccion de obras civiles para perforacion del pozo La Morita",
+		"proyecto": "Construcción de obras civiles para perforación del pozo La Morita",
 		"ubicacion": "CASANARE",
 		"inicio": "2/7/88",
-		"final": "2/28/88"
+		"final": "28-feb-88"
 	},
 	{
 		"cliente": "Elf Aquitaine Colombie",
-		"proyecto": "construccion de obras civiles, locacion y vias de acceso para el pozo Cravo Este 2",
+		"proyecto": "Construcción de obras civiles, locación y vías de acceso para el pozo Cravo Este 2",
 		"ubicacion": "CASANARE",
 		"inicio": "3/10/88",
-		"final": "4/12/88"
+		"final": "12-abr-88"
 	},
 	{
 		"cliente": "Elf Aquitaine Colombie",
-		"proyecto": "construccion de obras civiles locacion Barquereña 3",
+		"proyecto": "Construcción de obras civiles locación Barquereña 3",
 		"ubicacion": "CASANARE",
 		"inicio": "3/16/88",
-		"final": "4/12/88"
+		"final": "12-dic-88"
 	},
 	{
 		"cliente": "Bavaria",
-		"proyecto": "Construccion de pavimento rigido del patio de maniobras en la cerveceria de Honda",
+		"proyecto": "Construcción de pavimento rígido del patio de maniobras en la cervecería de Honda",
 		"ubicacion": "TOLIMA",
 		"inicio": "10/14/87",
-		"final": "5/23/88"
+		"final": "23-may-88"
 	}
 		]
 	},
@@ -77,17 +77,17 @@
 		"proyectos":[
 		{
 		"cliente": "Elf Aquitaine Colombie",
-		"proyecto": "Construccio de plataformas para los pozos exploratorios: Toros -1, Palmarito-2 y Sirenas-1",
+		"proyecto": "Construccion de plataformas para los pozos exploratorios: Toros -1, Palmarito-2 y Sirenas-1",
 		"ubicacion": "CASANARE",
 		"inicio": "12/30/88",
-		"final": "2/13/89"
+		"final": "13-feb-89"
 	},
 	{
 		"cliente": "Elf Aquitaine Colombie",
-		"proyecto": "Construccion de plataformas y piscinas para los pozos Gloria 2 y Gloria 3",
+		"proyecto": "Construcción de plataformas y piscinas para los pozos Gloria 2 y Gloria 3",
 		"ubicacion": "CASANARE",
 		"inicio": "4/5/89",
-		"final": "5/13/89"
+		"final": "13-may-89"
 	}
 		]
 	},
@@ -95,32 +95,32 @@
 		"year":"1990",
 		"proyectos":[
 		{
-		"cliente": "Acerias Paz del Rio",
-		"proyecto": "Adecuacion via de acceso a la mina de hierro el Banco",
+		"cliente": "Acerías Paz del Rio",
+		"proyecto": "Adecuación via de acceso a la mina de hierro El Banco",
 		"ubicacion": "BOYACA",
 		"inicio": "10/2/89",
-		"final": "02/01/1990"
-	},
-	{
-		"cliente": "elf Aquitaine Colombie",
-		"proyecto": "Construccion de obras civiles locacion Gloria 4",
-		"ubicacion": "CASANARE",
-		"inicio": "4/28/90",
-		"final": "5/22/90"
-	},
-	{
-		"cliente": "B.P. exploration Company (Colombia) Limited",
-		"proyecto": "Construccion de obras civiles locacion Cusiana 2A",
-		"ubicacion": "CASANARE",
-		"inicio": "4/16/90",
-		"final": "6/10/90"
+		"final": "1-feb-1990"
 	},
 	{
 		"cliente": "Elf Aquitaine Colombie",
-		"proyecto": "Construccion de obras civiles locacion Gloria 5",
+		"proyecto": "Construcción de obras civiles locación Gloria 4",
+		"ubicacion": "CASANARE",
+		"inicio": "4/28/90",
+		"final": "22-may-90"
+	},
+	{
+		"cliente": "B.P. Exploration Company (Colombia) Limited",
+		"proyecto": "Construcción de obras civiles locación Cusiana 2A",
+		"ubicacion": "CASANARE",
+		"inicio": "4/16/90",
+		"final": "10-jun-90"
+	},
+	{
+		"cliente": "Elf Aquitaine Colombie",
+		"proyecto": "Construcción de obras civiles locación Gloria 5",
 		"ubicacion": "CASANARE",
 		"inicio": "7/17/90",
-		"final": "10/30/90"
+		"final": "30-oct-90"
 	}
 		]
 	},
@@ -129,17 +129,17 @@
 		"proyectos":[
 		{
 		"cliente": "Elf Aquitaine Colombie",
-		"proyecto": "Construccion de obras civiles locacion Guazar 1",
+		"proyecto": "Construcción de obras civiles locación Guazar 1",
 		"ubicacion": "CASANARE",
 		"inicio": "12/26/90",
-		"final": "1/26/91"
+		"final": "26-ene-91"
 	},
 	{
 		"cliente": "B.P. exploration Company (Colombia) Limited",
-		"proyecto": "Construccion de obras civiles locacion Tamara 1",
+		"proyecto": "Construcción de obras civiles locación Tamara 1",
 		"ubicacion": "CASANARE",
 		"inicio": "12/26/90",
-		"final": "2/26/91"
+		"final": "26-feb-91"
 	}
 		]
 	},
@@ -147,53 +147,53 @@
 		"year":"1992",
 		"proyectos":[
 		{
-		"cliente": "B.P. exploration Company (Colombia) Limited",
-		"proyecto": "Construccion de obras civiles locacion Cupiagua 1",
+		"cliente": "B.P. Exploration Company (Colombia) Limited",
+		"proyecto": "Construcción de obras civiles locación Cupiagua 1",
 		"ubicacion": "CASANARE",
 		"inicio": "1/18/92",
-		"final": "2/17/92"
+		"final": "17-feb-92"
 	},
 	{
-		"cliente": "B.P. exploration Company (Colombia) Limited",
-		"proyecto": "Construccion de obras civiles locacion Pauto 1",
+		"cliente": "B.P. Exploration Company (Colombia) Limited",
+		"proyecto": "Construcción de obras civiles locación Pauto 1",
 		"ubicacion": "CASANARE",
 		"inicio": "3/7/92",
-		"final": "5/15/92"
+		"final": "15-may-92"
 	},
 	{
-		"cliente": "B.P. exploration Company (Colombia) Limited",
-		"proyecto": "Construccion de obras civiles locacion Pauto 2",
+		"cliente": "B.P. Exploration Company (Colombia) Limited",
+		"proyecto": "Construcción de obras civiles locación Pauto 2",
 		"ubicacion": "CASANARE",
 		"inicio": "3/7/92",
-		"final": "5/15/92"
+		"final": "15-may-92"
 	},
 	{
-		"cliente": "B.P. exploration Company (Colombia) Limited",
-		"proyecto": "Construccion de obras civiles locacion Chitamena 1",
+		"cliente": "B.P. Exploration Company (Colombia) Limited",
+		"proyecto": "Construcción de obras civiles locación Chitamena 1",
 		"ubicacion": "CASANARE",
 		"inicio": "4/14/92",
-		"final": "7/2/92"
+		"final": "2-jul-92"
 	},
 	{
-		"cliente": "B.P. exploration Company (Colombia) Limited",
-		"proyecto": "Construccion de obras civiles locacion Cusiana 3",
+		"cliente": "B.P. Exploration Company (Colombia) Limited",
+		"proyecto": "Construcción de obras civiles locación Cusiana 3",
 		"ubicacion": "CASANARE",
 		"inicio": "4/9/91",
-		"final": "8/1/92"
+		"final": "1-ago-92"
 	},
 	{
-		"cliente": "B.P. exploration Company (Colombia) Limited",
-		"proyecto": "Construccion de obras civiles locacion Cusiana 4. 4 Piscinas, geomembrana, afirmado en vias y dique ",
+		"cliente": "B.P. Exploration Company (Colombia) Limited",
+		"proyecto": "Construcción de obras civiles locación Cusiana 4. Piscinas, geomembrana, afirmado en vías y dique ",
 		"ubicacion": "CASANARE",
 		"inicio": "9/1/92",
-		"final": "9/20/92"
+		"final": "20-sep-92"
 	},
 	{
-		"cliente": "Lasmo oil (Colombia)",
-		"proyecto": "Mantenimiento Aeropuerto Santiago, vias alternas y via Aguazul Maní",
+		"cliente": "Lasmo Oil (Colombia)",
+		"proyecto": "Mantenimiento Aeropuerto Santiago, vías alternas y vía Aguazul Maní",
 		"ubicacion": "CASANARE",
 		"inicio": "9/9/92",
-		"final": "11/30/92"
+		"final": "30-nov-92"
 	}
 		]
 	},
@@ -201,25 +201,25 @@
 		"year":"1994",
 		"proyectos":[
 		{
-		"cliente": "B.P. exploration Company (Colombia) Limited",
-		"proyecto": "Construccion de obras civiles locacion y via de acceso al pozo Cusiana 1",
+		"cliente": "B.P. Exploration Company (Colombia) Limited",
+		"proyecto": "Construcción de obras civiles locación y via de acceso al pozo Cusiana 1",
 		"ubicacion": "CASANARE",
 		"inicio": "2/19/94",
-		"final": "3/13/94"
+		"final": "13-mar-94"
 	},
 	{
 		"cliente": "Luis Alberto Suarez",
-		"proyecto": "Construccion lago siete (7) hectarias Hacienda Mapiripan",
+		"proyecto": "Construcción de un lago de siete (7) hectáreas. Hacienda Mapiripan",
 		"ubicacion": "ACACIAS META",
 		"inicio": "1/11/94",
-		"final": "4/30/94"
+		"final": "30-abr-94"
 	},
 	{
-		"cliente": "B.P. exploration Company (Colombia) Limited",
-		"proyecto": "Preparacion y adecuacion de sitio E.P.S. (50%)",
+		"cliente": "B.P. Exploration Company (Colombia) Limited",
+		"proyecto": "Preparación y adecuación de sitio E.P.S. (50%)",
 		"ubicacion": "CASANARE",
 		"inicio": "6/13/93",
-		"final": "11/1/94"
+		"final": "1-nov-94"
 	}
 		]
 	},
@@ -228,10 +228,10 @@
 		"proyectos":[
 		{
 		"cliente": "Departamento de Cundinamarca",
-		"proyecto": "Parcheo con material granular seleccionado; excavacion alistado de piso, suministro, extendido y compactacion",
+		"proyecto": "Parcheo con material granular seleccionado; excavación alistado de piso, suministro, extendido y compactación",
 		"ubicacion": "GUATAQUI BELTRAN, CUNDINAMARCA",
 		"inicio": "8/29/97",
-		"final": "11/29/97"
+		"final": "29-nov-97"
 	}
 		]
 	},
@@ -240,31 +240,31 @@
 		"proyectos":[
 		{
 		"cliente": "Aeronautica Civil",
-		"proyecto": "Mejoramiento de canales Aeropuerto Eldorado",
-		"ubicacion": "SANTAFE DE BOGOTÁ",
+		"proyecto": "Mejoramiento de canales Aeropuerto El Dorado",
+		"ubicacion": "BOGOTÁ, D.C.",
 		"inicio": "1/12/97",
-		"final": "1/22/98"
+		"final": "22-ene-98"
 	},
 	{
 		"cliente": "Aeronautica Civil",
-		"proyecto": "Construccion parcial del cerramiento segunda etapa del Aeropuerto El Alcaravan",
+		"proyecto": "Construcción parcial del cerramiento segunda etapa del Aeropuerto El Alcaraván",
 		"ubicacion": "YOPAL",
 		"inicio": "11/26/97",
-		"final": "2/23/98"
+		"final": "23-feb-98"
 	},
 	{
 		"cliente": "Club Campestre El Rancho",
-		"proyecto": "Construccion campo de Golf. Construccion de dos hoyos y remodelacion de otros cuatro hoyos",
-		"ubicacion": "SANTAFE DE BOGOTÁ",
+		"proyecto": "Construcción de dos (2) hoyos y remodelación de otros cuatro (4) hoyos en el campo de golf",
+		"ubicacion": "BOGOTÁ, D.C.",
 		"inicio": "1/12/97",
-		"final": "3/15/98"
+		"final": "15-mar-98"
 	},
 	{
 		"cliente": "Aeronautica Civil",
-		"proyecto": "Mantenimiento pista Aeropuerto Eldorado mediante limpieza y drenaje de canales, costado sur y occidental",
-		"ubicacion": "SANTAFE DE BOGOTÁ",
+		"proyecto": "Mantenimiento pista Aeropuerto El Dorado mediante limpieza y drenaje de canales, costado sur y occidental",
+		"ubicacion": "BOGOTÁ, D.C.",
 		"inicio": "10/3/98",
-		"final": "5/5/98"
+		"final": "5-may-98"
 	}
 		]
 	}
