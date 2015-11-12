@@ -186,7 +186,7 @@ img{
 .menu1 li{
 	text-align:left;
 }
-	
+
 .menu1 ul li a{
 	font: italic 700 18px Calibri, sans-serif;
 	padding-left:40px;
@@ -400,10 +400,10 @@ padding: 10px;
 	background:url(../img/bgcontent3.png);
 /*	background-repeat:repeat-y;
 */	width:20%;
-	text-align:center;
-	line-height:0px;
-	float:left;
-	margin:0px;
+text-align:center;
+line-height:0px;
+float:left;
+margin:0px;
 }
 .trayectoria ul .trapro #ent .titulo{
 	font-size:8px;
@@ -449,7 +449,7 @@ padding: 10px;
 .historia{
 	/*background:url(../img/bgcontent3.png);*/
 	text-align:left;
-	float:left;
+	position: relative;
 }
 .historia h1{
 	font-family:Calibri, Arial, Helvetica, sans-serif;
@@ -515,19 +515,20 @@ padding: 10px;
 	-moz-border-radius:7px;
 }
 .historia .bloque .maquinaria{
-	width:150px;
-	height:150px;
+	width:174px;
+	height:174px;
 	/*background:url(../img/bgmenu.png);
 	background-color: #fff;*/
 	-moz-border-radius:7px;
 	border-radius:7px;
 	float:left;
 	margin:15px;
+	img{
+		width: 100%;
+	}
 }
 
 .volver{
-	width:405px;
-	padding: 10px;
 	background:#0099CC;
 	color: #fff;
 	text-transform: uppercase;
@@ -537,13 +538,21 @@ padding: 10px;
 	font-size:14px;
 	text-align: center;
 	cursor: pointer;
-	margin: 0px 4px auto 40px;
-	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+	a{
+		padding: 10px;
+		display: block;
+	}
+
 }
 
 
 .volver a:hover{
-	color: #0099CC;
+	background:darken(#0099CC, 10%);
 	text-decoration:none;
 }
 
@@ -555,15 +564,18 @@ padding: 10px;
 .historia .maquinaria:hover{
 	background:url(../img/bgazul.png);
 }
-.historia .bloque{
-	height:350px;
-	width:600px;
-	margin:0px 0px -250px 0px;
-}
+
 .historia .maquina{
-	width:540px;
-	min-height:350px;
 	margin:auto;
+	padding-top: 2em;
+	position: relative;
+
+	&:after{
+		content: '';
+		height: 1px;
+		display: table;
+		clear: both;
+	}
 }
 .historia .maquina #img{
 	width:200px;
@@ -574,20 +586,28 @@ padding: 10px;
 	-moz-border-radius:7px;
 	overflow:hidden;
 }
-.historia .maquina #texto{
+.historia .maquina .texto{
 	width:210px;
-	color:#6C6C6C;
+	color:#fff;
 	margin:20px 0px 0px 0px;
 	padding-top:15px;
 	text-align:left;
 }
-.historia .maquina #texto p{
-	color:#6C6C6C;
-	font-size:12px;
-	margin:0px 0px -10px;
-	line-height:12px;
-	width:210px; 
-	text-align:left;
+.historia .maquina .texto p{
+	font-size: 12px;
+	line-height: 1.5;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	float: none;
+}
+
+.historia .maquina .texto hr{
+	margin: 1em 0;
+	background: none;
+	color: none;
+	border: none;
+	border-top: 1px solid #fff;
 }
 /*----------------------------------------------------------------- FIN CONTENIDO ----------------------------------------------------------*/
 /*------------------------------------------------------ FOOTER ----------------------------------------------------------*/
@@ -649,10 +669,9 @@ padding: 10px;
 	line-height:12px;
 }
 .grey{
-		line-height:12px;
+	line-height:12px;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:11px;
 	color:#666666;
 }
 /*--------------------------------------------- FIN FOOTER ----------------------------------------------------*/	
-	

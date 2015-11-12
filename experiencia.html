@@ -51,9 +51,10 @@
                     </nav>
                 </aside>
                 <main id="derecha" class="noFrame">
-                    <section ng-show="checkTab(1)">
-                        <ul id="cbp-ntaccordion" class="cbp-ntaccordion">
-                            <li ng-repeat="year in actualidad">
+                    <section ng-show="checkTab(1)" class="blackModule">
+                        <div class="historia">
+                            <ul id="cbp-ntaccordion" class="cbp-ntaccordion">
+                            <li ng-repeat="year in actualidad | orderBy: '-year'">
                                 <h3 class="cbp-nttrigger">{{year.year}}</h3>
                                 <div class="cbp-ntcontent">
                                     <table class="contentTable">
@@ -79,10 +80,12 @@
                                 </div>
                             </li>
                         </ul>
+                        </div>
                     </section>
-                    <section ng-show="checkTab(2)">
-                        <ul id="cbp-ntaccordion-2" class="cbp-ntaccordion">
-                            <li ng-repeat="year in trayectoria">
+                    <section ng-show="checkTab(2)" class="blackModule">
+                        <div class="historia">
+                            <ul id="cbp-ntaccordion-2" class="cbp-ntaccordion">
+                            <li ng-repeat="year in trayectoria| orderBy: '-year'">
                                 <h3 class="cbp-nttrigger">{{year.year}}</h3>
                                 <div class="cbp-ntcontent">
                                     <table class="contentTable">
@@ -106,10 +109,10 @@
                                 </div>
                             </li>
                         </ul>
+                        </div>
                     </section>
-                    <section ng-show="checkTab(3)">
+                    <section ng-show="checkTab(3)" class="blackModule">
                         <div class="historia">
-                            <br /><br /><br />
                             <h1 style="font-size:32px;">Historia</h1>
                             <p>
                               Puentes y Carreteras naci&oacute; en 1982, bajo la iniciativa y visi&oacute;n del ingeniero Josu&eacute; Granados

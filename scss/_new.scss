@@ -1,6 +1,11 @@
-.blackModule, .blackModule .historia{
+.blackModule .historia{
 	background: url(../img/bgcontent3.png);
 	width: 100%;
+	min-height: 440px;
+
+	p, h3{
+		color:#fff;
+	}
 
 	.bloque{
 		height: auto;
@@ -10,9 +15,30 @@
 		.maquinaria{
 			background: rgba(#fff, .6);
 		}
+
+		&:after{
+			content: '';
+			display: table;
+			height: 1px;
+			clear: both;
+		}
 	}
+}
+
+.historia .col3{
+	width: 33.33%;
+	float: left;
+	margin: 0;
+	padding: 2em 1em;
 }
 
 [ng-click]{
 	cursor: pointer;
+}
+
+.anchor{
+	background:$color-1;
+	padding: .5em;
+	color:#fff;
+	text-align: center;
 }

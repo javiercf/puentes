@@ -61,8 +61,8 @@
 				</div>
 				<div id="derecha" class="noFrame">
 					<!--Etica-->
-					<section ng-show="checkTab(1)">
-						<div class="historia" style="width:500px; margin-left:5%;">
+					<section ng-show="checkTab(1)" class="blackModule">
+						<div class="historia">
 							<br /><br /><br />
 							<h1>&Eacute;tica profesional</h1>
 							<p>
@@ -93,10 +93,11 @@
 
 						</div>
 					</section>
-					<section ng-show="checkTab(2)">
+					<section ng-show="checkTab(2)" class="blackModule">
 
-						<div class="row">
-							<div class="historia">
+<div class="historia">
+							<div class="row">
+							<div class="col3">
 								<a href="img/iso9001.pdf" target="_blank" rel="lyteframe">
 									<img src="img/ISO9001_2.png" alt="ISO9001"/>
 								</a>
@@ -108,7 +109,7 @@
 								</h3>
 							</div>
 
-							<div class="historia">
+							<div class="col3">
 								<a href="img/iso14001-1.pdf" target="_blank" rel="lyteframe">
 									<img src="img/ISO14001_2.png" alt="ISO9001"/>
 								</a>
@@ -120,7 +121,7 @@
 								</h3>
 							</div>
 
-							<div class="historia">
+							<div class="col3">
 								<a href="img/ohsas.pdf" target="_blank" rel="lyteframe">
 									<img src="img/OHSAS_2.png" alt="ISO9001"/>
 								</a>
@@ -132,15 +133,18 @@
 								</h3>
 							</div>
 						</div>
+</div>
 					</section>
-					<section ng-show="checkTab(3)">
+					<section ng-show="checkTab(3)" class="blackModule">
+						<div class="historia">
                       <div class="row">
-						<div class="historia"  style="margin-top:10%;">
-							<a href="img/RUC-2015-small.pdf" target="_blank" rel="lyteframe">
-								<img src="img/ruc.png" alt="Evaluación RUC" style="margin:10px auto auto 30px;"/>
+							<div class="col3">
+								<a href="img/RUC-2015-small.pdf" target="_blank" rel="lyteframe">
+								<img src="img/ruc.png" alt="Evaluación RUC"/>
 							</a>
-							<h2 style="margin:10px auto auto 30px;">Evaluaci&oacute;n RUC</h2>
-							<h3 style="margin:auto auto auto 30px;">Evaluaci&oacute;n del Sistema de Gestión de Seguridad, Salud Ocupacional y Ambiente para Contratistas del Sector de Hidrocarburos</h3>
+							<h2 class="certificaciones">Evaluaci&oacute;n RUC</h2>
+							<h3 class="certificaciones">Evaluaci&oacute;n del Sistema de Gestión de Seguridad, Salud Ocupacional y Ambiente para Contratistas del Sector de Hidrocarburos</h3>
+							</div>
 						</div>
 					</section>
 					<section ng-show="checkTab(4)" class="blackModule">
@@ -200,33 +204,27 @@
 						<img src="img/proceso.jpg">
 					</a>
 					</section>
-					<section ng-show="checkTab(7)">
+					<section ng-show="checkTab(7)" class="blackModule">
 						<div class="historia">  
 							<div class="maquina">
 								<div id="img">
 									<img src="img/motoniveladora.jpg" alt=""  />
 								</div>
-								<div id="texto">
+								<div class="texto">
 									<p>Máquina: Motoniveladora</p>
 									<p>Marca: Caterpillar</p>
 									<p>Modelo: 120H</p>
 									<p>Año: 2005</p>
-									<br /><br /><br />
-									<br /><br />
 									<hr width="200"/>
 									<p>Máquina: Motoniveladora</p>
 									<p>Marca: Caterpillar</p>
 									<p>Modelo: 120H</p>
 									<p>Año: 2007</p>
-									<br /><br /><br />
-									<br /><br />
 									<hr width="200"/>
 									<p>Máquina: Motoniveladora</p>
 									<p>Marca: Caterpillar</p>
 									<p>Modelo: 120K</p>
 									<p>Año: 2009</p>
-									<br /><br /><br />
-									<br /><br />
 								</div>
 
 							</div>
@@ -237,31 +235,28 @@
 							</div>
 						</div>
 					</section>
-					<section ng-show="checkTab(8)">
+					<section ng-show="checkTab(8)" class="blackModule">
 						<div class="historia">
 							<div class="maquina">
 								<div id="img">
 									<img src="img/retroex.jpg" alt="Retroexcavadora"  />
 								</div>
-								<div id="texto">
+								<div class="texto">
 									<!--<img src="img/caterpillar.png" alt="" width="200" />-->
 									<p>Máquina: Retroexcavadora</p>
 									<p>Marca: Caterpillar</p>
 									<p>Modelo: 320CLME</p>
 									<p>Año: 2006</p>
-									<br /><br /><br /><br />
 									<hr width="200"/>
 									<p>Máquina: Retroexcavadora</p>
 									<p>Marca: Caterpillar</p>
 									<p>Modelo: 320DLME</p>
 									<p>Año: 2008</p>
-									<br /><br /><br />
 									<hr width="200"/>
 									<p>Máquina: Retroexcavadora</p>
 									<p>Marca: Caterpillar</p>
 									<p>Modelo: 320D REACH</p>
 									<p>Año: 2009</p>
-									<br /><br /><br />
 									<hr width="200"/>
 								</div>
 
@@ -273,31 +268,28 @@
 							</div>
 						</div>
 					</section>
-					<section ng-show="checkTab(9)">
+					<section ng-show="checkTab(9)" class="blackModule">
 						<div class="historia">
 							<div class="maquina">
 								<div id="img">
 									<img src="img/vibrocom.jpg" alt="Vibrocompactadora" />
 								</div>
-								<div id="texto">
+								<div class="texto">
 									<!--<img src="img/caterpillar.png" alt="" width="200" />-->
 									<p>Máquina: Vibrocompactador</p>
 									<p>Marca: Caterpillar</p>
 									<p>Modelo: CS-533E</p>
 									<p>Año: 2008</p>
-									<br /><br /><br /><br />
 									<hr width="200"/>
 									<p>Máquina: Vibrocompactador</p>
 									<p>Marca: Caterpillar</p>
 									<p>Modelo: CS-533E</p>
 									<p>Año: 2008</p>
-									<br /><br /><br />
 									<hr width="200"/>
 									<p>Máquina: Vibrocompactador</p>
 									<p>Modelo: CS-533E</p>
 									<p>Marca: Caterpillar</p>
 									<p>Año: 2010</p>
-									<br /><br /><br />
 									<hr width="200"/>
 
 								</div>
@@ -310,31 +302,28 @@
 							</div>
 						</div>
 					</section>
-					<section ng-show="checkTab(10)">
+					<section ng-show="checkTab(10)" class="blackModule">
 						<div class="historia">
 							<div class="maquina">
 								<div id="img">
 									<img src="img/retrocargadora.jpg" alt="Retrocargadora"  />
 								</div>
-								<div id="texto">
+								<div class="texto">
 									<!--<img src="img/johndeere.png" alt=""/>-->
 									<p>Máquina: Retrocargador</p>
 									<p>Marca: John Deere</p>
 									<p>Modelo: 410G</p>
 									<p>Año: 2005</p>
-									<br /><br /><br /><br />
 									<hr width="200"/>
 									<p>Máquina: Retrocargador</p>
 									<p>Marca: John Deere</p>
 									<p>Modelo: 410J</p>
 									<p>Año: 2007</p>
-									<br /><br /><br />
 									<hr width="200"/>
 									<p>Máquina: Retrocargador</p>
 									<p>Marca: John Deere</p>
 									<p>Modelo: 410J</p>
 									<p>Año: 2009</p>
-									<br /><br /><br />
 									<hr width="200"/>
 								</div>
 
@@ -346,20 +335,19 @@
 							</div>
 						</div>
 					</section>
-					<section ng-show="checkTab(11)">
+					<section ng-show="checkTab(11)" class="blackModule">
 
 						<div class="historia">
 							<div class="maquina">
 								<div id="img">
 									<img src="img/bulldozer.jpg" alt="Bulldozer"  />
 								</div>
-								<div id="texto">
+								<div class="texto">
 									<!--<img src="img/caterpillar.png" alt="" width="200"/>-->
 									<p>Máquina: Bulldozer</p>
 									<p>Marca: Caterpillar</p>
 									<p>Modelo: D6N-XL</p>
 									<p>Año: 2010</p>
-									<br /><br /><br /><br />
 									<hr width="200"/>
 								</div>
 
@@ -371,18 +359,17 @@
 							</div>
 						</div>
 					</section>
-					<section ng-show="checkTab(12)">
+					<section ng-show="checkTab(12)" class="blackModule">
 						<div class="historia">
 							<div class="maquina" style="height:750px;">
 								<div id="img">
 									<img src="img/Tracto-camion.jpg" alt=""  />
 								</div>
-								<div id="texto">
+								<div class="texto">
 									<p>Vehículo: Tractocamión y Cama baja</p>
 									<p>Marca: Kenworth</p>
 									<p>Modelo: T800</p>
 									<p>Año: 2008</p>
-									<br /><br /><br /><br />
 									<hr width="200"/>
                                     
                                     <p>Vehículo: Volquetas Doble Troque</p>
@@ -390,34 +377,30 @@
 									<p>Modelo: 7600</p>
 									<p>Año: 2011</p>
                                     <p>Unidades: 3</p>
-									<br /><br /><br /><br />
 									<hr width="200"/>
 
                                     <p>Vehículo: Volqueta Sencilla</p>
 									<p>Marca: Chevrolet</p>
 									<p>Modelo: KODIAK 157</p>
 									<p>Año: 2007</p>
-									<br /><br /><br /><br />
                                     <hr width="200"/>
                                 </div>
                                                                                                         
 								<div id="img">
 									<img src="img/pesados.jpg" alt=""  />
 								</div>
-                                <div id="texto">
+                                <div class="texto">
                                     
 									<p>Vehículo: Carrotanque para combustible</p>
                                     <p>Marca: Chevrolet</p>
 									<p>Modelo: KODIAK 211</p>
 									<p>Año: 2007</p>
-									<br /><br /><br /><br />
 									<hr width="200"/>
                                     
 									<p>Vehículo: Camión</p>
 									<p>Marca: Chevrolet</p>
 									<p>Modelo: NPR F. LIGHT</p>
 									<p>Año: 2008</p>
-									<br /><br /><br />
 									<hr width="200"/>
 								</div>
 
@@ -429,23 +412,21 @@
 							</div>
 						</div>
 					</section>
-					<section ng-show="checkTab(13)">
+					<section ng-show="checkTab(13)" class="blackModule">
 						<div class="historia">
 							<div class="maquina">
 							<div id="img">
 									<img src="img/infraestructura.jpg">
 								</div>
-                            <div id="texto">
+                            <div class="texto">
 									<p>Equipos de comunicación satelital</p>
 									<p>Marca: AXESAT</p>
 									<p>Modelo: Vsat Skyedge 1</p>
                                     <p>Unidades: 2</p>
-									<br /><br /><br /><br />	
 									<hr width="200"/>
 									<p>Carpas térmicas y baterías de baños</p>
 									<p>Capacidad: 40 personas</p>
                                     <p>Unidades: 2</p>
-									<br /><br /><br /><br />
 									<hr width="200"/>
 									<p>Generador eléctrico de 16K</p>
 									<p>Marca: YANMAR</p>
