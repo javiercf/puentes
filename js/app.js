@@ -74,8 +74,7 @@ app.controller('cercaniaCtrl', ['$scope', '$http', '$timeout', function($scope, 
 	}
 
 	$http.get('data/testimonios.json').then(function(data){
-		$scope.testimonios = shuffle(data.data);
-		
+		$scope.testimonios = data.data;
 	});
 
 

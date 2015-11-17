@@ -577,10 +577,8 @@ img {
   -moz-border-radius: 7px; }
 
 .historia .bloque .maquinaria {
-  width: 174px;
-  height: 174px;
-  /*background:url(../img/bgmenu.png);
-  background-color: #fff;*/
+  width: 165px;
+  height: 165px;
   border-radius: 7px;
   float: left;
   margin: 15px; }
@@ -817,7 +815,6 @@ img {
 
 .cbp-ntaccordion .cbp-ntcontent p {
   color: #fff;
-  background: url(../img/bgcontent3.png);
   font-size: 1.25em;
   font-weight: 300;
   line-height: 1.5;
@@ -902,13 +899,11 @@ img {
 
 table {
   border-collapse: collapse;
-  width: 100%;
-  background: url(../img/bgcontent3.png); }
+  width: 100%; }
 
 td, th {
   padding: 0.5em;
-  text-align: left;
-  color: #fff; }
+  text-align: left; }
 
 td.err {
   background-color: #0099CC;
@@ -927,12 +922,12 @@ tbody th {
   background-color: #2ea879; }
 
 tbody tr:nth-child(2n-1) {
-  background: #222;
+  background: #d1d1d1;
   -webkit-transition: all .125s ease-in-out;
           transition: all .125s ease-in-out; }
 
 tbody tr:hover td {
-  background-color: rgba(255, 255, 255, 0.1); }
+  background-color: rgba(0, 0, 0, 0.1); }
 
 /* For appearance */
 .sticky-wrap {
@@ -1066,9 +1061,9 @@ Main components
       font-size: 1rem; } }
   @media only screen and (min-width: 1170px) {
     .cd-testimonials p {
-      font-size: 18px;
-      font-size: 1.125rem;
-      line-height: 1.6; } }
+      font-size: 14px;
+      font-size: 0.875rem;
+      line-height: 1.4; } }
 
 .cd-author img, .cd-author .cd-author-info {
   display: inline-block;

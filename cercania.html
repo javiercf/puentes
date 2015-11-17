@@ -62,7 +62,7 @@
                     <section ng-show="checkTab(2)" class="flexSection">
                         <div class="cd-testimonials-wrapper cd-container">
                             <ul class="cd-testimonials">
-                                <li ng-repeat="testimonio in testimonios|orderBy:random">
+                                <li ng-repeat="testimonio in testimonios">
                                     <p>{{testimonio.testimonio}}</p>
                                     <div class="cd-author">
                                         <ul class="cd-author-info">
@@ -78,7 +78,7 @@
                         <div class="cd-testimonials-all">
                             <div class="cd-testimonials-all-wrapper">
                                 <ul>
-                                    <li ng-repeat="testimonio in testimonios|orderBy:random">
+                                    <li ng-repeat="testimonio in testimonios">
                                         <p>{{testimonio.testimonio}}</p>
                                         <div class="cd-author">
                                             <ul class="cd-author-info">

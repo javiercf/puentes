@@ -1,6 +1,19 @@
 [
   {
-    "year": "2006-2007",
+    "year": "2006",
+    "proyectos": [
+      {
+        "UBICACION": "PUERTO GAITAN META",
+        "BLOQUE": "GABAN",
+        "FECHA": "16-nov-06",
+        "CLIENTE": "HUPECOL OPERATING CO",
+        "OBJETO": "ADECUACIÓN DE LA VIA DE ACCESO Y CONSTRUCCIÓN DE LA LOCACIÓN GABAN A1, FASE 1",
+        "ORDEN DE OBRA": "HUP-FAC-028-06-01"
+      }
+    ]
+  },
+  {
+    "year": "2007",
     "proyectos": [
       {
         "UBICACION": "PUERTO GAITAN META",
@@ -73,14 +86,6 @@
         "CLIENTE": "",
         "OBJETO": "CONSTRUCCIÓN DE LA LOCACIÓN Y VIA DE ACCESO AL POZO RANCHO QUEMADO",
         "ORDEN DE OBRA": ""
-      },
-      {
-        "UBICACION": "PUERTO GAITAN META",
-        "BLOQUE": "GABAN",
-        "FECHA": "16-nov-06",
-        "CLIENTE": "",
-        "OBJETO": "ADECUACIÓN DE LA VIA DE ACCESO Y CONSTRUCCIÓN DE LA LOCACIÓN GABAN A1, FASE 1",
-        "ORDEN DE OBRA": "HUP-FAC-028-06-01"
       }
     ]
   },

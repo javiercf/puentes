@@ -25,12 +25,10 @@
 table {
     border-collapse: collapse;
     width: 100%;
-    background: url(../img/bgcontent3.png);
 }
 td, th {
     padding: 0.5em;
     text-align: left;
-    color:#fff;
 }
 	td.err {
 		background-color: #0099CC;
@@ -49,11 +47,11 @@ tbody th {
 	background-color: #2ea879;
 }
 tbody tr:nth-child(2n-1) {
-	background: #222;
+	background: #d1d1d1;
     transition: all .125s ease-in-out;
 }
 tbody tr:hover td{
-    background-color: rgba(#fff,.1);
+    background-color: rgba(#000,.1);
 }
 
 /* For appearance */
